@@ -136,8 +136,8 @@
     <ClCompile Include="src\HelloWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\3.3.shader.fs" />
-    <None Include="shader\3.3.shader.vs" />
+    <None Include="shader\7.4.camera.fs" />
+    <None Include="shader\7.4.camera.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_s.h" />

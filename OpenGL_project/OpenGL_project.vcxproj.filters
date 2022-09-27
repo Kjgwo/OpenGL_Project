@@ -23,10 +23,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\3.3.shader.fs">
+    <None Include="shader\7.4.camera.fs">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shader\3.3.shader.vs">
+    <None Include="shader\7.4.camera.vs">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
