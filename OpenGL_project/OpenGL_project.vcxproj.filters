@@ -18,17 +18,9 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\HelloWindow.cpp">
+    <ClCompile Include="src\lighting_maps_exercise4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="shader\7.4.camera.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\7.4.camera.vs">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_s.h">

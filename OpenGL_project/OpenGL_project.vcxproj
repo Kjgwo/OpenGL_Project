@@ -133,11 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\HelloWindow.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="shader\7.4.camera.fs" />
-    <None Include="shader\7.4.camera.vs" />
+    <ClCompile Include="src\lighting_maps_exercise4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_s.h" />
