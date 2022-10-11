@@ -18,7 +18,7 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\lighting_maps_exercise4.cpp">
+    <ClCompile Include="src\model_loading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,5 +29,28 @@
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\1.model_loading.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\1.model_loading.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\5.4.light_casters.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\5.4.light_casters.vs">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

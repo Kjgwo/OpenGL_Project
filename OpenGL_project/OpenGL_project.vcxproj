@@ -112,7 +112,9 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -133,11 +135,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\lighting_maps_exercise4.cpp" />
+    <ClCompile Include="src\model_loading.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\camera.h" />
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\model.h" />
+    <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_m.h" />
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_s.h" />
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\1.model_loading.fs" />
+    <None Include="shader\1.model_loading.vs" />
+    <None Include="shader\5.4.light_casters.fs" />
+    <None Include="shader\5.4.light_casters.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
