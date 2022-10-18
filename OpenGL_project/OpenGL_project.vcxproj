@@ -135,7 +135,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\model_loading.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\camera.h" />
@@ -145,10 +145,9 @@
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\1.model_loading.fs" />
-    <None Include="shader\1.model_loading.vs" />
-    <None Include="shader\5.4.light_casters.fs" />
-    <None Include="shader\5.4.light_casters.vs" />
+    <None Include="shader\2.stencil_single_color.fs" />
+    <None Include="shader\3.1.blending.fs" />
+    <None Include="shader\3.1.blending.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

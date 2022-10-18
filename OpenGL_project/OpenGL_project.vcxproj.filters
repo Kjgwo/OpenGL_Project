@@ -18,7 +18,7 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\model_loading.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -40,16 +40,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\1.model_loading.fs">
+    <None Include="shader\3.1.blending.vs">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shader\1.model_loading.vs">
+    <None Include="shader\3.1.blending.fs">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shader\5.4.light_casters.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\5.4.light_casters.vs">
+    <None Include="shader\2.stencil_single_color.fs">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
