@@ -16,7 +16,7 @@
 #include <stb_image.h>
 
 
-#define USE_FLASH_SHADER
+//#define USE_FLASH_SHADER
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -92,7 +92,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("resources/sponza/sponza.obj");
+    Model ourModel("resources/3001794/3001794.obj");
         
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -113,7 +113,7 @@ int main()
 
         // render
         // ------
-        glClearColor(0.25f, 0.05f, 0.05f, 1.0f);
+        glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 #ifndef USE_FLASH_SHADER

@@ -18,7 +18,7 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\wire-car.cpp">
+    <ClCompile Include="src\model_loading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -40,28 +40,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\5.1.framebuffers.fs">
+    <None Include="shader\1.model_loading.fs">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shader\5.1.framebuffers.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\5.1.framebuffers_screen.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\5.1.framebuffers_screen.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\6.1.cubemaps.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\6.1.cubemaps.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\6.1.skybox.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader\6.1.skybox.vs">
+    <None Include="shader\1.model_loading.vs">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
