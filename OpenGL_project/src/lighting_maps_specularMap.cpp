@@ -82,6 +82,7 @@ int main()
     // ------------------------------------
     Shader lightingShader("shader/4.4.lighting_maps.vs", "shader/4.4.lighting_maps.fs");
     Shader lightCubeShader("shader/4.4.light_cube.vs", "shader/4.4.light_cube.fs");
+    Shader ourShader("shader/1.model_loading.vs", "shader/1.model_loading.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -157,8 +158,8 @@ int main()
 
     // load textures (we now use a utility function to keep the code more organized)
     // -----------------------------------------------------------------------------
-    unsigned int diffuseMap = loadTexture("resources/textures/container2.png");
-    unsigned int specularMap = loadTexture("resources/textures/container2_specular.png");
+    unsigned int diffuseMap = loadTexture("resources/objects/cyborg/diffuse_cyborg.png");
+    unsigned int specularMap = loadTexture("resources/objects/cyborg/specular_cyborg.png");
     unsigned int emissionMap = loadTexture("resources/textures/matrix.jpg");
 
     // shader configuration
@@ -166,7 +167,7 @@ int main()
     lightingShader.use();
     lightingShader.setInt("material.diffuse", 0);
     lightingShader.setInt("material.specular", 1);
-    lightingShader.setInt("material.emission", 2);
+   // lightingShader.setInt("material.emission", 2);
 
     // render loop
     // -----------

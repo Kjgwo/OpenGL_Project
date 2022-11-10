@@ -21,6 +21,9 @@
     <ClCompile Include="src\model_loading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\lighting_maps_specularMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\shader_s.h">
@@ -44,6 +47,18 @@
       <Filter>Source Files</Filter>
     </None>
     <None Include="shader\1.model_loading.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\4.4.light_cube.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\4.4.light_cube.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\4.4.lighting_maps.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader\4.4.lighting_maps.vs">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

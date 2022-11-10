@@ -92,7 +92,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("resources/3001794/3001794.obj");
+    Model ourModel("resources/objects/cyborg/cyborg.obj");
         
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
