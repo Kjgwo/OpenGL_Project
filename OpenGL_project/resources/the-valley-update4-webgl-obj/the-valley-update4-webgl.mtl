@@ -1,0 +1,283 @@
+# Blender MTL File: 'None'
+# Material Count: 26
+
+newmtl Brick__GreyBricks_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.960000 0.960000 0.960000
+Ks 0.034118 0.034118 0.034118
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump GreyBricks2.jpg
+map_Kd GreyBricks2.jpg
+
+newmtl DoorType1_2__DoorType1_2_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.188235 0.074510 0.011765
+Ks 0.040000 0.040000 0.040000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump DoorType1_2.jpg
+map_Kd DoorType1_2.jpg
+
+newmtl Grass
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.000000 0.000000 0.000000
+Ks 0.003529 0.026667 0.003529
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Grass_COLOR.png
+
+newmtl Grass.001
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.054902 0.286275 0.000000
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd grass9.png
+map_d grass9.png
+
+newmtl GreyBrick2__GreyBricks2_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.039216 0.035294 0.035294
+Ks 0.057647 0.065490 0.067843
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump GreyBricks2.jpg
+map_Kd GreyBricks2.jpg
+
+newmtl GreyStone2__GreyStone2_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.066667 0.066667 0.066667
+Ks 0.034118 0.034118 0.034118
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Stone.jpg
+map_Kd Stone.jpg
+
+newmtl LogEdgeWeathered__TreeLogEdgeWeathered_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.960000 0.960000 0.960000
+Ks 0.055686 0.055686 0.055686
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump TreeLogEdgeWeathered.jpg
+map_Kd TreeLogEdgeWeathered.jpg
+
+newmtl Moon
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.286275 0.211765 0.007843
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump 4_moon_global_1k_1.jpg
+map_Kd 4_moon_global_1k_1.jpg
+
+newmtl Physical
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.733333 0.800000 0.592157
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd 1024x512.png
+map_Ke 1024x512.png
+
+newmtl Physical1
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.635294 0.788235 0.807843
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd YdZip.png
+map_d YdZip.png
+
+newmtl Plaster__PlasterLarge_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.168627 0.168627 0.168627
+Ks 0.049020 0.049020 0.049020
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump PlasterLarge.jpg
+map_Kd PlasterLarge.jpg
+
+newmtl RoofTiles__RoofTiles_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.156863 0.000000 0.000000
+Ks 0.070980 0.013725 0.013725
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump RoofTiles.jpg
+map_Kd RoofTiles.jpg
+
+newmtl RustedMetal__Rusted_Metal_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.149020 0.003922 0.003922
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Rusted Metal.jpg
+map_Kd Rusted Metal.jpg
+
+newmtl Standard
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.000000 0.000000 0.000000
+Ks 0.007843 0.000784 0.000784
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Standard1
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.058824 0.015686 0.011765
+Ks 0.012549 0.012549 0.012549
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump 3td_Rust_01.jpg
+
+newmtl Standard2
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.368627 0.309804 0.309804
+Ks 0.012549 0.012549 0.012549
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rock02A.jpg
+
+newmtl Standard3
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.003922 0.027451 0.007843
+Ks 0.043137 0.046667 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump normal_rock1.png
+
+newmtl Stone__Stone_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 1.000000 1.000000 1.000000
+Ks 0.035294 0.044706 0.044314
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Stone.jpg
+map_Kd Stone.jpg
+
+newmtl WindowBlue1__WindowBlue1
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.050980 0.156863 0.258824
+Ks 0.020000 0.020000 0.020000
+Ni 1.000000
+d 0.750000
+illum 2
+map_Bump WindowBlue1.jpg
+map_Kd WindowBlue1.jpg
+
+newmtl WindowBlue2__WindowsBlue2_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.011765 0.121569 0.247059
+Ks 0.000000 0.007294 0.012549
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump WindowsBlue2.jpg
+map_Kd WindowsBlue2.jpg
+
+newmtl Wood__Wood_jpg
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.219608 0.149020 0.047059
+Ks 0.040000 0.040000 0.040000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Wood.jpg
+map_Kd Wood.jpg
+
+newmtl clouds2
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.776471 0.776471 0.776471
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd clouds33.jpeg
+map_d clouds33.jpeg
+
+newmtl clouds3
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.666667 0.666667 0.666667
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd cloud_PNG4.png
+map_d cloud_PNG4.png
+
+newmtl flowers1
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.156863 0.152941 0.152941
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd billboardblueflowers.png
+map_d billboardblueflowers.png
+
+newmtl flowers2
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.858824 0.858824 0.858824
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd billboardredflowers.png
+map_Ke billboardredflowers.png
+map_d billboardredflowers.png
+
+newmtl fog
+Ns 96.078431
+Ka 0.035294 0.200000 0.266667
+Kd 0.321569 0.305882 0.498039
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd fog.jpg
+map_d fog.jpg

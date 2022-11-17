@@ -92,7 +92,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("resources/objects/cyborg/cyborg.obj");
+    Model ourModel("resources/medieval-house-2-obj/medieval-house-2.obj");
         
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -113,7 +113,7 @@ int main()
 
         // render
         // ------
-        glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+        glClearColor(0.6f, 0.4f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 #ifndef USE_FLASH_SHADER
@@ -214,7 +214,7 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
 {
     float xpos = static_cast<float>(xposIn);
     float ypos = static_cast<float>(yposIn);
-
+    
     if (firstMouse)
     {
         lastX = xpos;

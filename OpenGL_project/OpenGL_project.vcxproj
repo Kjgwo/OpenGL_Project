@@ -134,9 +134,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\cubeMap.cpp" />
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\lighting_maps_specularMap.cpp" />
-    <ClCompile Include="src\model_loading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\OpenGL_Project\includes\learnopengl\camera.h" />
@@ -148,10 +147,6 @@
   <ItemGroup>
     <None Include="shader\1.model_loading.fs" />
     <None Include="shader\1.model_loading.vs" />
-    <None Include="shader\4.4.lighting_maps.fs" />
-    <None Include="shader\4.4.lighting_maps.vs" />
-    <None Include="shader\4.4.light_cube.fs" />
-    <None Include="shader\4.4.light_cube.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
